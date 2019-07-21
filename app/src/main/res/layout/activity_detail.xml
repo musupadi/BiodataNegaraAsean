@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AseanActivity"
+    android:padding="20dp"
+    android:background="@drawable/backgroundblue">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/hitam"
+        android:alpha="0.5"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/bendera_ina"
+                android:layout_margin="10dp"
+                android:id="@+id/ivBendera"/>
+            <ImageView
+                android:id="@+id/ivLogo"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/lambang_ina" />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/putih"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvNegara"
+                    android:text="•	Nama Negara : Indonesia"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:id="@+id/tvIbuKota"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•	Ibu Kota : Jakarta"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:id="@+id/tvPemerintahan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•	Pemerintahan : Negara kesatuan bersistem republic presdensial"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:id="@+id/tvSemboyan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•	Semboyan: Bhinneka Tunggal Ika"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:id="@+id/tvLaguKebangsaan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•	Lagu kebangsaan : Indonesia Raya"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:id="@+id/tvMataUang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•	Mata uang : Rupiah"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:id="@+id/tvBahasa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•	Bahasa resmi dan bahasa nasional : Indonesia"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:id="@+id/tvLuas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•	Luas area : 1.990.250 km²"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:id="@+id/tvPenduduk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•	Jumlah penduduk : 270.054.853 jiwa"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:id="@+id/tvTelepon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•	Kode telepon : +62"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:id="@+id/tvInternetDomain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•	Internet Domain : .id"/>
+
+                <TextView
+                    android:textColor="@color/putih"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Penjelasan Singkat"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:id="@+id/tvDeksripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/sejarah_singkat_asean"/>
+            </LinearLayout>
+        </ScrollView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:text="Wilayah"
+            android:id="@+id/btnMaps"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+    </LinearLayout>
+
+</RelativeLayout>

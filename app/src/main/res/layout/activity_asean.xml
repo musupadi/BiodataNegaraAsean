@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AseanActivity"
+    android:padding="20dp"
+    android:background="@drawable/backgroundblue">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/hitam"
+        android:alpha="0.5"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:src="@drawable/lambang_asean"
+            android:background="@color/putih"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/putih"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•	Sekretariat : Jakarta"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•	Sekretaris jendral : Lim Jock Hoi"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•	Semboyan: 'One Vision, One Identity, One Community'"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•	Lagu kebangsaan : The ASEAN Way"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•	Luas wilayah : 4.522.518 km2"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•	Populasi : 651.000.000 jiwa"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="•	Situs web resmi : ASEAN.org"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Sejarah Singkat ASEAN"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:textColor="@color/putih"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/sejarah_singkat_asean"/>
+            </LinearLayout>
+        </ScrollView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Wilayah"
+            android:id="@+id/btnMaps"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+    </LinearLayout>
+
+</RelativeLayout>
