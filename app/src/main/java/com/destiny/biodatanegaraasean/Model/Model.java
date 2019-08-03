@@ -71,9 +71,9 @@ public class Model {
                     "Malaysia adalah sebuah negara federal yang terdiri dari tiga belas negeri (negara bagian) dan tiga wilayah federal di Asia Tenggara dengan luas 329.847 km perseg Ibu kotanya adalah Kuala Lumpur, sedangkan Putrajaya menjadi pusat pemerintahan federal. Negara ini dipisahkan ke dalam dua kawasan  Malaysia Barat dan Malaysia Timur."
             },
             {"Laos",
-                    String.valueOf(R.drawable.bndera_malaysia),
-                    String.valueOf(R.drawable.lambang_negara_malaysia),
-                    String.valueOf(R.drawable.maps_malaysia),
+                    String.valueOf(R.drawable.bndera_laos),
+                    String.valueOf(R.drawable.lmbang_laos),
+                    String.valueOf(R.drawable.maps_laos),
                     "Vientiane",
                     "Kesatuan Marxis-Leninis satu partai sosialis republik",
                     "Santiphab ekalad pasathipatai ekaphab vadtha na thauaon",

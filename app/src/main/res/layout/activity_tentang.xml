@@ -42,7 +42,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:textColor="@color/putih"
-                        android:id="@+id/tvInfoResma"
+                        android:id="@+id/tvInfoRizki"
                         android:text="@string/deskripsi"
                         android:textSize="20sp" />
                 </LinearLayout>
