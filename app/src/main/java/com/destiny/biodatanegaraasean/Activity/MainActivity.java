@@ -34,6 +34,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Tentang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,TentangActivity.class);
+                startActivity(intent);
+            }
+        });
         Kuis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -41,13 +48,6 @@ public class MainActivity extends AppCompatActivity {
                 goInput.putExtra("NO",String.valueOf(0));
                 goInput.putExtra("SCORE",String.valueOf(0));
                 MainActivity.this.startActivities(new Intent[]{goInput});
-            }
-        });
-        Tentang.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,TentangActivity.class);
-                startActivity(intent);
             }
         });
     }

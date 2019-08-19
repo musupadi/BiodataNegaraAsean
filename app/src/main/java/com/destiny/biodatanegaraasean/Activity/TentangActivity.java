@@ -18,7 +18,7 @@ public class TentangActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tentang);
-        deskripsi=(TextView)findViewById(R.id.tvDeksripsi);
+        deskripsi=(TextView)findViewById(R.id.tvInfoRizki);
         kembali=(Button)findViewById(R.id.btnKembali);
         final MediaPlayer Suara = MediaPlayer.create(TentangActivity.this,R.raw.rizki);
         kembali.setOnClickListener(new View.OnClickListener() {
